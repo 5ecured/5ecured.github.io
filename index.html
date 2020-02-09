@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,76 +9,94 @@
     <link rel="stylesheet" type='text/css' href="style.css">
 
 </head>
+
 <body>
     <header>
         <div class='main-textbox'>
             <div class='center'>
                 <h1 class='white'>Welcome to my portfolio</h1>
                 <h1 class='white'>This portfolio contains
-                    <span
-                    class="txt-rotate"
-                    data-period="2000"
-                    data-rotate='[ "a calculator.", "a recipe book.", "a weather app.", "a pomodoro timer.", "a Shopping list app" ]'></span>
+                    <span class="txt-rotate" data-period="2000"
+                        data-rotate='[ "a calculator.", "a recipe book.", "a weather app.", "a pomodoro timer.", "a CRUD app", "a budgeting app" ]'></span>
                 </h1>
             </div>
         </div>
     </header>
-    
+
     <section class='first-section'>
         <p class='center text'>
-            Hello! My name is Edward and I am living in Melbourne, Australia. I enjoy building everything ranging from simple websites to interactive and engaging web apps.
-            <br>
-            I would like to showcase some of the things that I have learned and built. Hope you enjoy these mini projects!
+            Hello! My name is <span id='underline'>Edward</span> and I am living in <span id='underline'>Melbourne,
+                Australia</span>. I enjoy building everything ranging from simple websites to interactive and engaging
+            web apps. I am <span id='underline'>constantly studying and learning new things</span> so that I can build
+            increasingly complex apps! When I learn, I am a strong believer in <span id='underline'>learning the
+                fundamentals</span> because just like constructing a building, I believe when the
+            fundamentals/foundations are strong, you can keep building up.
+        </p>
+        <p class='center text bigger'>
+            I have built numerous simple things to solidify the fundamentals, and even if they can get a little boring,
+            every once in a while I repeat them like a workout so that I can truly grasp the fundamentals. I won't show
+            them all here, but here are just a few of the things that I have learnt and built. Hope you enjoy them!
         </p>
     </section>
 
-    <section class='section-showcase'>
-        <ul class='project-showcase clearfix'>
-            <li>
-                <figure class='project-photo'>
-                    <a href='https://silly-wright-4fb628.netlify.com/' target='_blank'><img src="pics/recipe.jpg"></a>
-                </figure>
-            </li>
-            <li>
-                <figure class='project-photo'>
-                    <a href="https://condescending-ardinghelli-2a8b76.netlify.com/" target='_blank'><img src="pics/calculator.png"></a>
-                </figure>
-            </li>
-            <li>
-                <figure class='project-photo'>
-                    <img src="resources/img/3.jpg">
-                </figure>
-            </li>
-            <li>
-                <figure class='project-photo'>
-                    <img src="resources/img/4.jpg">
-                </figure>
-            </li>
-        </ul>
-        <ul class='project-showcase clearfix'>
-            <li>
-                <figure class='project-photo'>
-                    <img src="resources/img/5.jpg">
-                </figure>
-            </li>
-            <li>
-                <figure class='project-photo'>
-                    <img src="resources/img/6.jpg">
-                </figure>
-            </li>
-            <li>
-                <figure class='project-photo'>
-                    <img src="resources/img/7.jpg">
-                </figure>
-            </li>
-            <li>
-                <figure class='project-photo'>
-                    <img src="resources/img/8.jpg">
-                </figure>
-            </li>
-        </ul>
-    </section>
-    
+    <div id='bottom'>
+        <div class='showcase'>
+            <div>
+                <a href='https://silly-wright-4fb628.netlify.com/' target='_blank'><img src='pics/recipe.jpg'
+                        alt='Picture of a recipe book' /></a>
+                <h3 class='center'>Recipe book</h3>
+            </div>
+            <div>
+                <a href='https://dreamy-darwin-c19361.netlify.com/' target='_blank'><img src='pics/crud.png'
+                        alt='Picture of weather' /></a>
+                <h3 class='center'>Simple CRUD app</h3>
+            </div>
+            <div>
+                <a href='https://wonderful-shirley-42b835.netlify.com/' target='_blank'><img src='pics/budget.png'
+                        alt='Picture of a budgeting tool' /></a>
+                <h3 class='center'>Budgeting tool</h3>
+            </div>
+            <div>
+                <a href='https://gracious-gates-b14cb1.netlify.com/' target='_blank'><img src='pics/weather.jpg'
+                        alt='Picture of weather' /></a>
+                <h3 class='center'>Simple weather app</h3>
+            </div>
+        </div>
+        <div class='showcase'>
+            <div>
+                <a href='https://condescending-ardinghelli-2a8b76.netlify.com/' target='_blank'><img
+                        src='pics/calculator.png' alt='Picture of a calculator' /></a>
+                <h3 class='center'>Calculator</h3>
+            </div>
+            <div>
+                <a href='https://distracted-wilson-9d9e9e.netlify.com/' target='_blank'><img src='pics/food.jpg'
+                        alt='Picture of food' /></a>
+                <h3 class='center'>Omnifood</h3>
+            </div>
+            <div>
+                <a href='https://friendly-bardeen-ecd583.netlify.com/' target='_blank'><img src='pics/pomodoro.png'
+                        alt='Picture of a timer' /></a>
+                <h3 class='center'>Pomodoro timer</h3>
+            </div>
+        </div>
+    </div>
+
+    <hr />
+
+    <div class='container'>
+        <p class='center' id='end'>Thank you for visiting! It is my aim and my goal to constantly add new things to this
+            portfolio</p>
+    </div>
+
+    <footer>
+        <div class='row'>
+            <a href='https://www.linkedin.com/in/edward-ottorino/' target='_blank'><img src='pics/linkedin.png' /></a>
+            <a href='mailto:edward.ottorino@gmail.com' target='_blank'><img src='pics/email.png' /></a>
+            <a href='https://github.com/5ecured/' target='_blank'><img src='pics/github.png' /></a>
+        </div>
+    </footer>
+
     <script src="script.js"></script>
 </body>
+
 </html>
