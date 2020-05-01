@@ -56,10 +56,11 @@ h1 {
     width: 200px;
 }
 
-/* #mern {
-    height: 180px;
+
+#same {
+    height: 250px;
     width: 350px;
-} */
+}
 
 #underline {
     text-decoration: underline;
