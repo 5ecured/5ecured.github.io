@@ -49,6 +49,7 @@ h1 {
     justify-content: space-around;
     align-items: center;
     margin-top: 100px;
+    padding-bottom: 75px;
 }
 
 .showcase img {
@@ -105,5 +106,9 @@ footer img {
 .row {
     display: flex;
     justify-content: space-around;
+    text-align: center;
+}
+
+li {
     text-align: center;
 }
